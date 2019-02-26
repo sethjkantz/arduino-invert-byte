@@ -12,7 +12,7 @@
 
 
 int i, j,currByte = 0;
-unsigned char c1,c2,byteOut[ARRSIZE][2],num[2];
+unsigned char byteOut[ARRSIZE][2],num[2];
 
 
 void setup() {
