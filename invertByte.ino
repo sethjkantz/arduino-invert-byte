@@ -81,7 +81,7 @@ void skipToHex(int start){
   c = Serial.read();
 
   if(c == '0'){
-    // waits for signal in serial
+    // if 0 is found, search for x
     skipToHex(1);
   } else if(c=='x' && start != 0){
     //if already found a 0
